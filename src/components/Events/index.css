@@ -1,0 +1,37 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+
+.app-container {
+  display: flex;
+  flex-direction: row;
+  /* background-color: #3a4b63; */
+  /* width: 60vw; */
+  /* height: 100vh; */
+}
+
+.events-container {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  background-color: #3a4b63;
+  width: 50vw;
+  padding-left: 78px;
+  padding-top: 36px;
+  /* max-width: 70%; */
+}
+
+.event-list-container {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.events-heading {
+  font-size: 29px;
+  color: #ffffff;
+}
